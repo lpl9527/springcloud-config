@@ -1,4 +1,4 @@
 config: 
-    info: application-dev.yml configuration
+    info: application-dev.yml configuration version 1
     name: lpl
     age: 23
