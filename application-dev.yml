@@ -1,18 +1,4 @@
-server:
-  port: 3344
-spring:
-  application:
-    name: cloud-config-center #注冊进eureka注冊中心的服务名称
-  cloud:
-    config:
-      server:
-        git:
-          search-paths: #搜索目录
-            - springcloud-config
-          uri: https://github.com/lpl9527/springcloud-config.git #github上配置仓库地址，注意：是ssh地址
-      label: master   #读取的分支
-#服务注冊进eureka
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7001/eureka
+config: 
+    info: application-dev.yml configuration
+    name: lpl
+    age: 23

@@ -1,2 +1,4 @@
 config: 
-    info: 这是生产环境配置文件
+    info: application-prod.yml configuration
+    name: haha
+    age: 32
