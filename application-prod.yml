@@ -1,4 +1,4 @@
 config: 
-    info: application-prod.yml configuration
+    info: application-prod.yml configuration version 1
     name: haha
     age: 32
